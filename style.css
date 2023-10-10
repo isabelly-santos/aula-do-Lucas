@@ -1,5 +1,5 @@
-@charset 'UTF-8';
-@import url('https://fonts.googleapis.com/css2?family.bebas+Neue&display=swap');
+@charset 'utf-8';
+@import url('https//fonts.googleapis.com/css2?family=bebas=Neue&display=swap');
 @font-face {
     font-family: 'idroid';
     src: url(fontes/idroid.otf);
@@ -7,14 +7,19 @@
 * { 
     padding: 0px;
     margin: 0px;
+    font-family: var(--fonte-padrao);
 }
 :root {
     --cor: #195935;
     --cor: #84e1ad;
     --cor: #3DD984;
 
-    --fonte-android: 'idrod';
-    --fonte-padrao: sans-serif;
+    --fonte-android: 'idrod', sansz-serif;
+    --fonte-padrao: arial, helvatica, sans-serif;
+    --fonte-especial: 'bebas neve', sansz-serif;
+}
+body{
+    background-color: var(--cor1);
 }
 header {
     background-image: linear-gradient(to bottom, var(--cor2) var(var(--cor0)));
@@ -34,4 +39,16 @@ nav a {
 nav a :hover {
     background-color: var(--cor2);
     color: var(--cor0);
+}
+main{
+    box-align: center;
+    background-color: white;
+    max-width: 70%;
+    margin: auto;
+}
+h1{
+    font-family: 'idroid', arial, sans-serif;
+    color:#195935;
+    font-size: xx-large;
+    margin: 50px;
 }
