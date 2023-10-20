@@ -27,67 +27,31 @@
     text-decoration: none;
     text-indent: 0%;
     margin: 0%;
-    line-height: 1.2em;
-    font-size: 18px;
     font-family: var(--fonte-padrao);
-    font-weight: 100;
 }
-
 body {
     background-color: var(--cor2);
     display: block;
 }
 
 header {
-    height: 150px;
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     text-align: center;
     color: white;
+    padding: 50px;
 } 
-
-#principal {
-    font-family: var(--fonte-destaque);
-    font-size: 40px;
-    padding-top: 20px;
-    font-weight: 100;
-    text-shadow: var(--text-shadow);
-    letter-spacing: 0px;
-}
-
-#subtitulo {
-    font-family: var(--fonte-padrao);
-    padding-top: 20px;
-    text-shadow: var(--text-shadow);
-    text-align: center;
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
 }
 
 nav {
     background-color: var(--cor5);
     color: white;
-    height: 25px;
     padding: 5px;
-    display: block;
     box-shadow: var(--box-shadow)
-}
 
-.links_principais, .links_principais:visited {
-    color: white;
-    padding-left: 20px;
-}
-
-.links_principais:hover {
-    color: var(--cor5);
-    transition-duration: 0.5s;
-}
-
-.links, .links:visited {
-    color: var(--cor4);
-    font-weight: bold;
-}
-
-.links:hover {
-    color: var(--cor5);
-    transition-duration: 0.5s;
 }
 
 main {
@@ -96,34 +60,13 @@ main {
     margin: auto;
     margin-bottom: 10px;
     background-color: white;
-    display: block;
     padding: 15px;
     box-shadow: var(--box-shadow);
     border-radius: 0px 0px 20px 20px;
 }
 
-.links:after {
-    content: var(--link-externo);
-}
 
-#h1 {
-    font-size: 30px;
-    font-family: var(--fonte-titulo);
-    color: var(--cor5);
-}
 
-.h2 {
-    font-family: var(--fonte-titulo);
-    font-size: 25px;
-    color: var(--cor4);
-    background-image: linear-gradient(to right, var(--cor1), white);
-    border-radius: 10px 0px 0px 10px;
-    text-indent: 10px;
-}
-
-#bugdroid {
-    text-align: center;
-}
 
 div {
     width: 830px;
@@ -141,7 +84,7 @@ iframe {
 aside {
     border-radius: 20px;
     padding-bottom: 30px;
-    background-color: var(--cor1);
+    background-color: var(--cor3);
     border-radius: 20px 20px 20px 20px;
     text-align: justify;
     box-shadow: 1px 1px 3px rgb(126, 125, 125);
@@ -150,13 +93,10 @@ aside {
 h3 {
     color: white;
     padding: 15px;
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     border-radius: 20px 20px 0px 0px;
 }
 
-.itens_aside {
-    padding-left: 15px;
-}
 
 ul {
     padding: 15px;
@@ -165,13 +105,6 @@ ul {
     columns: 2;
 }
 
-p {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-indent: 30px;
-    line-height: 25px;
-    text-align: justify;
-}
 
 strong {
     color: var(--cor4);
@@ -183,8 +116,4 @@ footer {
     text-align: center;
     color: white;
     padding: 5px;
-}
-
-.direitos_footer {
-    color: white;
 }
